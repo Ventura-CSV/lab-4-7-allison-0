@@ -1,10 +1,6 @@
 def main():
     numbers = []
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
+    userInput = int(input("Enter a value:"))
 
     ########################################
     # Do not delete the return statement

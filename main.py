@@ -1,6 +1,13 @@
 def main():
     numbers = []
-    userInput = int(input("Enter a value:"))
+    while True:
+        N = int(input("Enter a value"))
+        numbers.append(N)
+        N = int(input("Enter a value"))
+        if N <= numbers[-1]:
+            numbers.append(N)
+        else:
+            break
 
     ########################################
     # Do not delete the return statement
